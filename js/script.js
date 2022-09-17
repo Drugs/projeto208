@@ -1,4 +1,3 @@
-    //Abrir o menu ao clickar no hamburguer; e resetar o menu caso ele esteja invisivel.
     const menu = document.querySelector(".menu")
     function abrirmenu() {
         if (menu.style.display == "none") {
