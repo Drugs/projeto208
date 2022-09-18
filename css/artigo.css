@@ -1,0 +1,52 @@
+body >article {
+  text-align: center;
+}
+body >article img {
+  display: block;
+  margin: 20px auto;
+  width: calc(100% - 40px);
+  max-width: 800px;
+  border: 1px solid black;
+  padding: 1px;
+}
+body >article div.info h4 {
+  display: inline;
+  margin-inline: 5px;
+}
+body >article div.info h4.categoria {
+  background-color: #ff80d5;
+  padding: 5px;
+  border: 1px solid black;
+}
+body >article div.info h4.categoria a {
+  font-weight: bold;
+}
+body >article div.info h4.m {
+  background-color: #71E7E0;
+}
+body >article div.info h4.f {
+  background-color: #ff80d5;
+}
+body >article div.texto {
+  text-align: left;
+  width: calc(100% - 40px);
+  max-width: 800px;
+  margin: 25px auto;
+  white-space: pre-line;
+}
+body >article div.texto h3 {
+  margin: 0;
+}
+body >article div.texto p {
+  margin: 0;
+}
+body >article div.texto ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+body >article div.texto ul li {
+  display: list-item;
+}
+body >article div.texto img {
+  max-width: 400px;
+}

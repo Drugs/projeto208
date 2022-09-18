@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=$title?></title>
+    <title>Makeup Charm</title>
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/artigo.css">
 </head>
 <body>
     <header>
@@ -27,5 +31,6 @@
                 </ul>
             </div>
             <i class="bi bi-list" onclick="abrirmenu()"></i>
+            <a href=""><i class="bi bi-plus-circle-fill"></i></a>
         </nav>
     </header>
