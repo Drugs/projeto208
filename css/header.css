@@ -8,12 +8,11 @@ body {
 }
 nav {
   background-color: #ff80d5;
-  border-bottom: 1px solid #000000e6;
   display: flex;
   height: 99px;
   width: 100%;
 }
-nav > a[href="#"] {
+nav > a {
   line-height: 50px;
   padding-inline: 10px;
   border-inline: 1px solid #000000e6;
@@ -27,15 +26,12 @@ nav div {
   margin-left: auto;
   margin-right: 20px;
 }
-nav > i.bi-list {
+nav > i {
   font-size: 2em;
   margin-block: auto;
   margin-right: 30px;
   display: none;
   height: 34px;
-}
-nav > a {
-  margin: auto 20px auto 0;
 }
 form {
   margin-block: auto;
@@ -118,10 +114,10 @@ nav.f {
 
 @media (max-width: 710px) {
   header {
-    height: 79px;
+    height: 80px;
   }
   nav {
-    height: 79px;
+    height: 80px;
     position: fixed;
     top: 0;
   }
@@ -179,6 +175,12 @@ nav.f {
     background-color: #71E7E0;
   }
   nav.f {
+    background-color: #ff80d5;
+  }
+  div.menu.m {
+    background-color: #71E7E0;
+  }
+  div.menu.f {
     background-color: #ff80d5;
   }
 }

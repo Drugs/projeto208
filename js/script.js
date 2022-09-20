@@ -10,7 +10,7 @@
             body.style.overflow = "auto"
         }
     }
-    let tela = window.matchMedia("(min-width: 711px)")
+    const tela = window.matchMedia("(min-width: 711px)")
     tela.onchange = function() {
         if (tela.matches) {
             menu.style.display = "flex"

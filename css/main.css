@@ -26,11 +26,10 @@ main article > a {
 main article img {
   width: calc(100% - 30px);
   max-width: 600px;
-  padding: 1px;
-  border: 2px solid black;
   display: block;
   border-radius: 10px;
   margin: 20px auto 0;
+  height: auto;
 }
 main article h1 {
   margin: 10px auto 5px;
@@ -49,7 +48,7 @@ main article h4 {
 main article h4.categoria {
   background-color: #ff80d5;
   padding: 5px;
-  border: 1px solid black;
+  border-radius: 5px;
 }
 main article h4.m {
   background-color: #71E7E0;
@@ -58,7 +57,7 @@ main article h4.f {
   background-color: #ff80d5;
 }
 
-body > div {
+body > a {
   margin: 20px auto 0;
   background-color: #ff80d5;
   width: -webkit-max-content;
@@ -67,9 +66,16 @@ body > div {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid black;
+  display: block;
 }
-body > div:hover {
+body > a:hover {
   background-color: #ff95dc;
+}
+body > a.m {
+  background-color: #71E7E0;
+}
+body > a.f {
+  background-color: #ff80d5;
 }
 
 @media (max-width: 710px) {
