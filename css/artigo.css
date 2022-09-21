@@ -32,10 +32,7 @@ body >article div.texto {
   margin: 25px auto;
   white-space: pre-line;
 }
-body >article div.texto h3 {
-  margin: 0;
-}
-body >article div.texto p {
+body >article div.texto h2,h3,p {
   margin: 0;
 }
 body >article div.texto ul {

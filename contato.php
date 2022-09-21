@@ -26,6 +26,18 @@
 	</nav>
 </header>
 
+<article>
+	<div class="texto">
+		<h2>Entre em contato no nosso email:</h2>
+		<p><i class="bi bi-envelope-fill"></i> makeupcharm@gmail.com</p>
+		<h2>Entre em contato em nossas redes sociais:</h2>
+		<p><a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"></i> Twitter</a></p>
+		<p><a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i> Facebook</a></p>
+		<p><a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i> Instagram</a></p>
+		<p><a href="https://github.com/Drugs/projeto208" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> Github</a></p>
+	</div>
+</article>
+
 <footer style="position: absolute; bottom: 0;">
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"></i></a>
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>

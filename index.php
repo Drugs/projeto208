@@ -34,6 +34,9 @@
 			$sql = "SELECT * FROM artigos WHERE categoria = 1 LIMIT 0,$carregar";
 		}
 	}
+	if (isset($_GET['busca'])) {
+		$sql = "SELECT* FROM artigos WHERE titulo LIKE '%{$_GET['busca']}%'";
+	}
 	$query = mysqli_query($con, $sql);
 	$fetch = mysqli_fetch_all($query, MYSQLI_ASSOC);
 	$total = "SELECT * FROM artigos";
@@ -63,6 +66,13 @@
 	</nav>
 </header>
 
+<?php
+	if (isset($_GET['busca'])) {
+		echo '
+		<h4 style="border-bottom: 2px solid black; text-align: center; margin-inline: auto; max-width: max-content; font-size: 2em;">Você pesquisou por: "'.$_GET['busca'].'"<h4>
+		';
+	}
+?>
 <main>
 	<?php
 		if (!isset($_GET['artigo'])) {
